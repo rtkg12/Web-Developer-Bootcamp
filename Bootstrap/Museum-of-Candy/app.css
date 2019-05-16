@@ -1,0 +1,17 @@
+body {
+    background-color: #F5D9D4;
+    font-family: Nunito;
+}
+
+.nav-link{
+    color: #FFFFFF;
+}
+
+.navbar-brand {
+    color: #EA1B2B;
+    font-weight: 300;
+}
+
+.nav-item .active {
+    color: #EA1B2B;
+}
