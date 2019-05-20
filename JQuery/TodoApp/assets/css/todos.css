@@ -1,0 +1,75 @@
+body {
+    background-image: linear-gradient(to right,#45CBE5 , #EBEDC8);
+}
+
+div {
+    font-family: "Nunito";
+    width: 40%;
+    margin: 100px auto;
+    background-color: white;
+}
+
+h3 {
+    background-color: #3982BA;
+    color: white;
+    font-weight: 700;
+    margin: 0 0 0 0;
+    padding: 10px 20px;
+    justify-content: space-evenly;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fa-plus {
+    text-align: center;
+    padding: auto 0%;
+    color: white;
+}
+
+#addTask {
+    align-self: flex-end;
+    margin: 0%;
+    background-color: transparent;
+    border: 0;
+}
+
+ul {
+    list-style: none;
+    text-align: left;
+    margin: 0;
+    padding: 0%;
+    color: #666666;
+}
+
+li {
+    line-height: 40px;
+    margin: 0%;
+}
+
+.listItem {
+    padding: 0 20px;
+}
+
+#textInput {
+    width: 100%;
+    background-color: #F7F6F8;
+    margin: 0%;
+    padding: 0% 20px;
+    border: 0;
+    height: 40px;
+}
+
+.del {
+    display: none;
+    width: 50px;
+    background-color: #D8433A;
+    color: white;
+    margin: 0;
+    border: 0;
+    /* padding: 0 15px; */
+    /* font-size: 0.9em; */
+}
+
+.done {
+    text-decoration: line-through;
+}
