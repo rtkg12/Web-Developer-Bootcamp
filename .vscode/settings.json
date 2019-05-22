@@ -1,0 +1,7 @@
+{
+    "liveServer.settings.port": 5500,
+    "eslint.alwaysShowStatus": true,
+    "eslint.autoFixOnSave": true,
+    "editor.formatOnSave": true,
+    "prettier.eslintIntegration": true
+}

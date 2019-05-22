@@ -1,0 +1,10 @@
+<%- include index.ejs %>
+<h3>Your search results are: </h3>
+
+<ol>
+    <% if(searchResults !== undefined & searchResults !== null) { %>
+    <% for(let i=0; i<searchResults.length;i++){ %>
+    <li> <img src="<%= searchResults[i]['Poster'] %>" height="200"> <%= searchResults[i]["Title"] %> -
+        <%= searchResults[i]["Year"] %></li>
+    <% }} %>
+</ol>
