@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!-- saved from url=(0057)http://localhost:3000/blogs/5ce7afae55e564489b9c2876/edit -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Blog App</title>
+    <link rel="stylesheet" type="text/css" href="./Blog App_files/semantic.min.css">
+    <link rel="stylesheet" type="text/css" href="./Blog App_files/app.css">
+</head>
+
+<body>
+    <div class="ui fixed inverted menu">
+        <div class="ui container">
+            <div class="header item"><i class="code icon"></i>Blog Site</div>
+            <a href="http://localhost:3000/" class="item">Home</a>
+            <a href="http://localhost:3000/blogs/new" class="item">New Blog</a>
+        </div>
+    </div>
+
+<div class="ui main text container segment">
+    <div class="ui huge header">Edit Test Blog</div>
+    <form class="ui form" action="http://localhost:3000/blogs/5ce7afae55e564489b9c2876" method="POST">
+        <div class="field">
+            <label>Title</label>
+            <input type="text" name="blog[title]" placeholder="title">
+        </div>
+        <div class="field">
+            <label>Image</label>
+            <input type="text" name="blog[image]" placeholder="image">
+        </div>
+        <div class="field">
+            <label>Blog Content</label>
+            <textarea name="blog[body]"></textarea>
+        </div>
+        <input class="ui violet basic button" type="submit">
+    </form>
+</div>
+
+
+</body></html>
