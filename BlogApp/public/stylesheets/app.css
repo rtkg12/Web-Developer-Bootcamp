@@ -9,3 +9,7 @@ i.icon {
 #delete {
     display: inline;
 }
+
+i.icon {
+    font-size: inherit;
+}
