@@ -5,3 +5,7 @@
 .thumbnail {
     padding: 0;
 }
+
+.thumbnail .btn-primary {
+    margin-bottom: 9px;
+}
