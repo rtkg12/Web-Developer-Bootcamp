@@ -9,3 +9,7 @@
 .thumbnail .btn-primary {
     margin-bottom: 9px;
 }
+
+.delete-form {
+    display: inline;
+}
